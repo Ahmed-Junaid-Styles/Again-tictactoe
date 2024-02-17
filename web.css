@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+}
+nav{
+  height: 40px;
+  background-color: gray;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav div{
+  font-size: 1.2rem;
+  color: white;
+  text-shadow: 0px 0px 2px black;
+}
+.home{
+  /*border-radius: 5px;
+  background-image: linear-gradient(to left,red, orange, yellow );
+  */
+}
+h1{
+  text-align: center;
+  color: rgb(255, 60, 60, 0.7)
+}
+.turns{
+  height: 50px;
+  width: 220px;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+.x,.o{
+  border: 2px solid black;
+  margin: 0 12px;
+  font-size: 18px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+}
+@keyframes color{
+  0%{background-color: aquamarine}
+  50%{background-color: aquamarine; opacity: 0.3}
+  100%{background-color: aquamarine}
+}
+body div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+table{
+}
+td{
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  font-size: 2rem;
+}
+.one,.two,.three,.four,.five,.six{
+  border-bottom: 1px solid purple;
+}
+.one,.two,.four,.five,.seven,.eight{
+  border-right: 1px solid purple;
+}
+.two,.three,.five,.six,.eight,.nine{
+  border-left: 1px solid purple;
+}
+.four,.five,.six,.seven,.eight,.nine{
+  border-top: 1px solid purple;
+}
+.reset{
+  color: white;
+  border: none;
+  background-color: aqua;
+  font-weight: 500;
+  padding: 2px 6px;
+  font-size: 18px;
+  border-radius: 4px;
+}
+.reset:active {
+  scale: 1.1;
+}
